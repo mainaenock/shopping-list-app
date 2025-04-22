@@ -160,6 +160,19 @@ button:active{
         width: 350px;
     }
 }
+@media (max-width: 400px) {
+    .popup-container{
+        left: 10px;
+    }
+    .items{
+        display: grid;
+        grid-template-columns: 70px 70px 50px 100px 70px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 .done-list button{
     background-color: rgb(201, 5, 5);
